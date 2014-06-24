@@ -1,0 +1,126 @@
+/* NO JS Styles  */
+
+/* @group TYPOGRAPHY */
+
+/* Headers */
+
+.no-js h1 {
+	position: static;
+	top: 0;
+}
+
+.no-js .intro h2 {
+	padding: 10px;
+	background: #CD0989;
+	color: #fff;
+}
+
+/* @end */
+
+
+
+/* @group FORMS */
+
+.no-js fieldset {
+	display: block;
+	position: static;
+	left: 0;
+	padding: 20px 0 0;
+	border-top: 4px solid #5E49A3;
+}
+	.no-js fieldset.actions {
+		border:none;
+	}
+
+	.no-js .actions .container {
+		margin: 0;
+	}
+
+.no-js label {
+	float: none;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.no-js input[type=radio] {
+	vertical-align: middle;
+}
+
+/* @end */
+
+
+/* @group CONTENT ELEMENTS */
+
+.no-js .tabs-nav {
+	display: none;
+}
+
+	.no-js .tabs-pane {
+		overflow: hidden;
+	}
+
+
+.no-js .guide {
+	width: 90% !important;
+	padding-top:20px;
+}
+	.no-js .guide .intro,
+	.no-js .guide .income_text {
+		position: static;
+		left: 0;
+		margin-bottom: 50px;
+	}
+	.no-js .guide .income_text {
+		display: block;
+	}
+
+.no-js .cta {
+	display: none;
+}
+
+.no-js .chart {
+	float: none;
+	clear: both;
+	margin: 50px auto;
+}
+		.no-js .chart p span {
+			display: block;
+		}
+
+	.no-js #income .chart .diagram {
+		display: block;
+	}
+
+	.no-js .chart ul li {
+		display: block;
+	}
+
+.no-js #income img {
+	display: block;
+}
+
+
+.no-js .finish {
+	display: block;
+	position: static;
+	left: 0;
+	padding: 20px 0 0;
+	border-top: 4px solid #5E49A3;
+}
+
+.no-js .key {
+	position: static;
+	display: block;
+}
+	.no-js .key h2 {
+		cursor: default;
+	}
+
+/* @end */
+
+
+/* @group HELPERS */
+
+.no-js .hidden { display: block !important; visibility: visible; }
+
+/* @end */

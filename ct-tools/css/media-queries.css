@@ -1,0 +1,313 @@
+/* 
+	MEDIA QUERIES FOR COMMON DEVICES- RESPONSIVE GRID SYSTEM
+	URL - http://responsive.gs
+	LICENSE - PUBLIC DOMAIN
+*/
+
+/* SMARTPHONES - PORTRAIT & LANDSCAPE */
+@media
+only screen and (min-device-width: 320px) and (max-device-width: 480px),
+only screen and (min-width: 320px) and (max-width: 480px) {
+
+	h1 {
+		position: static;
+		top: 0;
+		width: auto;
+		height: 87px;
+		padding: 18px 0 0 5%;
+		background-image: url(../img/header_bg_mob.png);
+		font-size: 0.938em;
+		line-height: 1em;
+		letter-spacing: -0.05em;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+
+	.splash {
+		margin-top: 0;
+	}
+	.splash h1 {
+		height: 87px;	
+		padding: 18px 0 0 5%;
+		font-size: 1.5em;
+		line-height: 1em;
+	}
+	.splash p {
+		font-size: 1.125em;
+		line-height: 1.222em;
+	}
+	.splash a.cta {
+		margin-top: 20px;
+		width: 140px;
+	}
+	.splash img {
+		display: none;
+	}
+
+	.find-out {
+		display: block;
+		position: static;
+		left:auto;
+		right: auto;
+		width: 90%;
+		padding: 0.5em 5%;
+	}
+	
+	.tabs-nav {
+		overflow: hidden;
+		display: block;
+		position: static;
+		left:auto;
+		right: auto;
+		width: 90%;
+		padding: 1em 5%;
+	}
+	.tabs-nav li {
+		display: block;
+		width: 95%;
+		margin: 1em 0;
+	}
+
+	.guide {
+		width: 300px;
+		padding-top: 36px;
+	}
+	.guide .intro,
+	.guide .finish {
+		position: static;
+		left: 0;
+	}
+	.guide .finish,
+	.guide .cta {
+		margin-top: 36px;
+	} 
+	.guide .cta h3 {
+		width: 164px;
+		padding: 20px 126px 20px 20px;
+		font-size: 1.25em;
+	}
+
+	fieldset {
+		width: 90%;
+		padding: 0 5%;
+		margin: 0 0 2em;
+	}
+	fieldset li {
+		float: left;
+		width: 33.3%;
+		text-align: center;
+	}
+	.actions .container {
+		overflow: hidden;
+		width: 100%;
+		margin: 0;
+	}
+	input[type=text] {
+		width:158px;
+		border-radius:0;
+
+	/*display: inline;
+		
+		margin: 0;
+		vertical-align: top;*/
+	}
+	input[type=submit] {
+		-webkit-appearance: none;
+		box-shadow: 0;
+		border-radius:0;
+	}
+
+		label {
+			width: 100%;
+			margin: 0 0 0.5em;
+			padding: 0;
+			line-height: 1em;
+		}
+		label,
+		input[type=radio] {
+			display: inline-block;
+			float: none;
+
+		}
+
+
+	.guide {
+		float: none;
+		width: 90%;
+		padding: 0 0 0 5%;
+	}
+		.finish,
+		.income_text {
+			display: none;
+			width: 90%;
+			padding: 0 5%;
+		}
+		.guide .intro p,
+		.guide .finish p,
+		.guide .income_text p {
+			margin: 0 0 1em;
+			font-size: 0.813em;
+			line-height: 1.231em;
+		}
+		.guide .cta {
+			display: none;
+		}
+
+
+	.chart,
+	.chart ul {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.chart p {
+		font-size: 1em;
+	}
+		.chart p span.text,
+		.chart p span.total {
+			display: block;
+		}
+	.chart ul {
+		font-size: 0.675em;
+	}
+	.chart li {
+		display: block;
+	}
+
+	#services .chart,
+	#services .chart ul,
+	#results .chart,
+	#results .chart ul {
+		width: 280px;
+		height: 280px;
+	}
+
+
+	#income .chart {
+		width: 280px;
+		height: 244px;
+		margin-bottom: 8px;
+	}
+		#income .chart a {
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			margin: -6px 0 0 -8px
+		}
+
+
+	.key {
+		position: static;
+		top: 0;
+	}
+
+	.key h2 {
+		padding: 18px 17px 16px;
+		background-image: none;
+		font-size: 0.75em;
+		line-height: 1em;
+	}
+
+	.key ul {
+		display: block;
+		float: none;
+		width: 100%;
+		margin: 0;
+		padding: 6px 0;
+	}
+		.key ul li {
+			display: block;
+			padding: 0 0 0 15%;
+			background: no-repeat 5% center;
+		}
+		.key ul li + li {
+			margin: 0;
+		}
+
+	.key ol {
+		margin-left: 5%;
+	}
+
+	.key .more_links {
+		position: static;
+		width: 80%;
+		padding: 0;
+		margin: 10px 0 0;
+		text-align: left;
+	}
+		.key .more_links li {
+			width: 88%;
+			margin: 0 0 0 6%;
+			padding: 0 0 0 0;
+		}
+		.key .more_links a {
+			width: 100%;
+			margin: auto;
+		}
+	
+}
+
+/* SMARTPHONES - LANDSCAPE */
+@media 
+only screen and (max-width: 480px) {
+	
+	
+	
+}
+
+/* SMARTPHONES - PORTRAIT */
+@media 
+only screen and (max-width: 320px) {
+	
+	
+	
+}
+
+/* IPADS - PORTRAIT & LANDSCAPE */
+@media 
+only screen and (min-device-width: 768px) and (max-device-width: 1024px),
+only screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	
+	
+}
+
+/* IPADS - LANDSCAPE */
+@media 
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	
+	div.radio.focus span, 
+	div.radio:hover span, 
+	div.radio.hover span {
+		background-position:inherit;
+	}
+	
+}
+
+/* IPADS - PORTRAIT */
+@media 
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	
+	div.radio.focus span, 
+	div.radio:hover span, 
+	div.radio.hover span {
+		background-position:inherit;
+	}
+	
+}
+
+@media
+only screen and (min-device-width: 320px) and (max-device-width: 750px),
+only screen and (min-width: 320px) and (max-width: 750px) {
+	span.help-mobile {display:inline;}
+	span.help-desktop {display:none;}	
+}
+
+@media
+only screen and (min-width : 751px),
+only screen and (min-device-width : 751px){
+	span.help-desktop {display:inline;}
+	span.help-mobile {display:none;}
+}
